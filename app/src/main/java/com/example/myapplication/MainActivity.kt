@@ -94,7 +94,7 @@ class MainActivity : ComponentActivity() {
                 NavHost(navController = navController, startDestination = "screen1") {
                     composable(route = "screen1") {
                         ScreenOne(onClick = {
-                            Log.d("BUGBUG","Onclick")
+                            Log.d("BUGBUG","Hello world")
                             navController.navigate(route = "screen2")})}
                     composable(route = "screen2") { ScreenTwo()}
                 }
